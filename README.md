@@ -6,7 +6,7 @@ En este repositorio, subiré los ejercicios por orden de dificultad para si algu
 Estaran divididos por temas:
 <ul>
   
-  <li>Tema 3: foreach, funciones, strlen(), count(), explore(), strpos()</li>
+  <li><b>Tema 3:</b> foreach, funciones, strlen(), count(), explore(), strpos(), ord(), chr()</li>
 </ul>
 
 
