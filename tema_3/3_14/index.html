@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- levantar servidor: php -S localhost:8000  -->
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horoscopo</title>
+    <style>
+        body {
+            background-color: bisque;
+            text-align: center;
+            height: 100dvh;
+        }
+
+        form {
+            margin: 30px auto;
+            gap: 20px;
+            padding: 20px;
+            border: 2px solid black;
+            width: 40%;
+
+        }
+
+        form input {
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Elige tu Horoscopo</h1>
+    <form method="post" action="horoscopo.php">
+        <h4>Que signo eres?</h4>
+        <input type="radio" name="signo" value="aries">
+        <label for="aries">Aries</label>
+        <input type="radio" name="signo" value="tauro">
+        <label for="tauro">Tauro</label>
+        <input type="radio" name="signo" value="geminis">
+        <label for="geminis">Géminis</label>
+        <br>
+        <input type="radio" name="signo" value="cancer">
+        <label for="cancer">Cáncer</label>
+        <input type="radio" name="signo" value="leo">
+        <label for="leo">Leo</label>
+        <input type="radio" name="signo" value="virgo">
+        <label for="virgo">Virgo</label>
+        <br>
+        <input type="radio" name="signo" value="libra">
+        <label for="libra">Libra</label>
+        <input type="radio" name="signo" value="piscis">
+        <label for="piscis">Piscis</label>
+        <input type="radio" name="signo" value="sagitario">
+        <label for="sagitario">Sagitario</label>
+        <input type="radio" name="signo" value="acuario">
+        <label for="acuario">Acuario</label>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar todo">
+    </form>
+</body>
+
+</html>
